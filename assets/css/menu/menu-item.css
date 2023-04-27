@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.menu__item{
+    list-style: none;
+    transition: all .1s ease-in-out;
+}
+
+.menu__item:hover{
+    transform: scale(1.15);
+}
