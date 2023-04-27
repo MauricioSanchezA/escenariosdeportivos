@@ -1,0 +1,35 @@
+.persona__imagen{
+    height: 300px;
+    width: 300px;
+    margin:  0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    transition: all .1s ease-in-out;
+}
+
+.persona__imagen--roberta{
+    background-image: url(../../img/personas/soldador.jpeg);
+}
+
+.persona__imagen--marcela{
+    background-image: url(../../img/personas/apoyo.jpeg);
+}
+
+.persona__imagen--roxanna{
+    background-image: url(../../img/personas/directivas.jpeg);
+}
+
+.persona__imagen:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px){
+    .persona__imagen{
+        height: 200px;
+        width: 200px;
+
+    }
+}
