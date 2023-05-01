@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecera{
+    align-items: center;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width:0){
+    .cabecera{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (min-width:768px){
+    .cabecera{
+        width: 100%;
+        padding: 0;
+        justify-content: space-between;
+    }
+}

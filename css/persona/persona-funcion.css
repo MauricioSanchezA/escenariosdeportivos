@@ -1,0 +1,11 @@
+.persona__funcion{
+    color: #949494;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+}
+@media screen and (min-width: 568px){
+    .persona__funcion{
+        width: 90%;
+
+    }
+}
