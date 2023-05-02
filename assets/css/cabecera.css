@@ -13,8 +13,8 @@ html {
 
 @media screen and (min-width:0){
     .cabecera{
-        width: 100%;
-        padding: 0;
+        width: 90%;
+        padding: 0 1rem;
         justify-content: center;
 
     }
@@ -22,8 +22,9 @@ html {
 
 @media screen and (min-width:768px){
     .cabecera{
-        width: 100%;
-        padding: 0;
+        width: 90%;
+        padding: 0 5rem;
         justify-content: space-between;
+        
     }
 }
