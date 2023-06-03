@@ -9,7 +9,7 @@ html {
 }
 
 .menu__link--activo {
-    color: #333333;
+    color: orangered;
     font-weight: bold;
     margin-right: 1.25rem;
     text-decoration: none;
