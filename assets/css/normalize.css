@@ -21,11 +21,12 @@ html {
 /**
    * Remove the margin in all browsers.
    */
-
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     width: auto;
-    box-sizing: border-box;
 }
 
 /**
